@@ -90,12 +90,12 @@ covid<-function(contact){
 ##---------------CONTACT INFO----------------------------------------------
 
 receiver<-numeric(0)
-receiver[1]="+91 92107 21854"
-receiver[2]="+91 98689 56683"
-receiver[3]="+91 98993 53830"
+receiver[1]=""
+receiver[2]=""
+receiver[3]=""
 
-receiver[4]="Shashank"
-receiver[5]="+91 9971114035"
+receiver[4]=""
+receiver[5]=""
 for(i in 1:length(receiver))
 {
 covid(receiver[i])
